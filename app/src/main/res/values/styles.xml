@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/my_color</item>
+        <item name="colorPrimaryDark">@color/my_color_dark</item>
+        <item name="colorAccent">@color/my_color_dark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/dark_gray</item>
+        <item name="android:windowBackground">@color/light_gray</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:colorControlNormal">@android:color/black</item>
+        <item name="android:colorControlActivated">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <color name="hint_false">#000</color>
+    <style name="black" parent="Theme.AppCompat">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#64B5F6</item>
+    </style>
+</resources>

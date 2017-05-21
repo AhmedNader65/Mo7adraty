@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:background="#64B5F6">
+
+<LinearLayout
+    android:layout_marginTop="@dimen/_22sdp"
+    android:layout_marginBottom="@dimen/_22sdp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_marginRight="@dimen/_22sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New place : "
+        />
+    <Spinner
+        android:id="@+id/placeSpinner"
+        android:layout_width="wrap_content"
+        android:minWidth="@dimen/_100sdp"
+        android:layout_height="wrap_content"></Spinner>
+</LinearLayout>
+
+    <CheckBox
+        android:id="@+id/forever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="till the end of the semester"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:padding="@dimen/_14sdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please note you can only change the lecture details for current week or forever"
+        />
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_dialog"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="OK"
+        android:textColor="#ffffffff"/>
+
+</LinearLayout>

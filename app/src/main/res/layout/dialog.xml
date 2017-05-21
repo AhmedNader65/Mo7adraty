@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:background="#64B5F6">
+<LinearLayout
+    android:layout_marginBottom="@dimen/_22sdp"
+    android:layout_marginTop="@dimen/_22sdp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_marginRight="@dimen/_22sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New day : "
+        />
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="wrap_content"
+        android:minWidth="@dimen/_100sdp"
+        android:layout_height="wrap_content"></Spinner>
+</LinearLayout>
+<LinearLayout
+    android:layout_marginBottom="@dimen/_22sdp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_marginRight="@dimen/_22sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New time : "
+        />
+    <Spinner
+        android:id="@+id/timeSpinner"
+        android:layout_width="wrap_content"
+        android:minWidth="@dimen/_100sdp"
+        android:layout_height="wrap_content"></Spinner>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_dialog"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Next"
+        android:textColor="#ffffffff"/>
+
+</LinearLayout>
